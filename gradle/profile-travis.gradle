@@ -35,7 +35,6 @@ jacocoTestReport {
         xml.enabled true
         html.enabled true
         html.destination file("${buildDir}/reports/coverage")
-        xml.destination file("${buildDir}/coverage/lcov.info")
     }
     afterEvaluate {
         //exclude some classes/package from code coverage report
