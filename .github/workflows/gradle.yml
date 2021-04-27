@@ -38,6 +38,7 @@ jobs:
     - name: Coveralls
       uses: codecov/codecov-action@v1
       with:
+        token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
         files: ./build/reports/jacoco/test/jacocoTestReport.xml #optional
         flags: unittests # optional
         name: codecov-umbrella # optional
