@@ -1,7 +1,7 @@
 # Indexing-service
 
 ![GitHub](../../actions/workflows/gradle.yml/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/VolkerHartmann/testAction/badge.svg?branch=master)](https://coveralls.io/github/VolkerHartmann/testAction?branch=master)
+[![codecov](https://codecov.io/gh/VolkerHartmann/testAction/branch/master/graph/badge.svg?token=N707Q19VX8)](https://codecov.io/gh/VolkerHartmann/testAction)
 ![License](https://img.shields.io/github/license/kit-data-manager/indexing-service.svg)
 
 Just for test!
