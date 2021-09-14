@@ -11,7 +11,7 @@ on:
     
 env:
     currentJDK: 8
-    testJDK: 8, 11, 16
+    testJDK: [ 8, 11, 16 ]
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
     strategy:
       matrix:
         # Use both LTS releases and latest one
-        jdk: [ ${{ env.testJDK }} ]
+        jdk: ${{ env.testJDK }}
     steps:
     - name: Checkout repo
       uses: actions/checkout@v2
