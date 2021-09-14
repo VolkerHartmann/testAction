@@ -26,7 +26,7 @@ apply plugin: 'jacoco'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
-description = 'Generic indexing service supporting different mapping implementations.'
+description = 'Test gitHubActions.'
 group = 'edu.kit.datamanager'
 
 println "Building ${name} version: ${version}"
