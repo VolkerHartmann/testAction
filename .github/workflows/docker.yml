@@ -10,7 +10,7 @@ on:
 
 env:
     # JDK version used for building jar file
-    currentBuildVersion: 8
+    currentJDK: 8
 jobs:
   build:
     runs-on: ubuntu-latest
